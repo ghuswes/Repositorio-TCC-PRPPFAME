@@ -1,0 +1,14 @@
+{
+    "database": "benchmarks/I13.csv",
+    "status": "no solution",
+    "trunc": "MGA",
+    "scale_vpl": 100.0,
+    "limit": 10,
+    "buffer": 1.0,
+    "order": "D",
+    "frac_limit": "N/A",
+    "tempo": 90.8381,
+    "known_best": "N/A",
+    "upper_bound": 98448.64,
+    "solution": []
+}

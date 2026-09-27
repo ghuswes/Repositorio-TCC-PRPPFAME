@@ -1,0 +1,41 @@
+{
+    "database": "benchmarks/10x25_cap300.csv",
+    "status": "sucess",
+    "trunc": "MGR",
+    "scale_vpl": 50.0,
+    "limit": 100,
+    "buffer": 1.0,
+    "order": "D",
+    "frac_limit": "N/A",
+    "tempo": 1.7665,
+    "known_best": 2840.0,
+    "upper_bound": 2985.0,
+    "solution": [
+        {
+            "total_profit": 2781.0,
+            "penalty": "N/A",
+            "liquid_profit": 2781.0,
+            "gap_best": 2.0775,
+            "gap_upper_bound": 6.8342,
+            "weights": [
+                "['dimension: 1', 'weight: 268.0', 'penalty: 0']:('cap_min: 0', 'cap_max: 300.0')",
+                "['dimension: 2', 'weight: 264.0', 'penalty: 0']:('cap_min: 0', 'cap_max: 300.0')",
+                "['dimension: 3', 'weight: 278.0', 'penalty: 0']:('cap_min: 0', 'cap_max: 300.0')",
+                "['dimension: 4', 'weight: 280.0', 'penalty: 0']:('cap_min: 0', 'cap_max: 300.0')",
+                "['dimension: 5', 'weight: 281.0', 'penalty: 0']:('cap_min: 0', 'cap_max: 300.0')"
+            ],
+            "items": [
+                "['set: 1', 'item: 9']:('weights: 26.0, 27.0, 24.0, 32.0, 33.0'):('profit: 283.0')",
+                "['set: 2', 'item: 19']:('weights: 27.0, 28.0, 28.0, 27.0, 24.0'):('profit: 270.0')",
+                "['set: 3', 'item: 23']:('weights: 24.0, 24.0, 30.0, 26.0, 30.0'):('profit: 274.0')",
+                "['set: 4', 'item: 14']:('weights: 32.0, 31.0, 30.0, 29.0, 27.0'):('profit: 306.0')",
+                "['set: 5', 'item: 11']:('weights: 25.0, 24.0, 31.0, 25.0, 30.0'):('profit: 275.0')",
+                "['set: 6', 'item: 19']:('weights: 27.0, 26.0, 29.0, 26.0, 33.0'):('profit: 287.0')",
+                "['set: 7', 'item: 25']:('weights: 25.0, 29.0, 27.0, 25.0, 27.0'):('profit: 268.0')",
+                "['set: 8', 'item: 6']:('weights: 30.0, 26.0, 24.0, 29.0, 22.0'):('profit: 268.0')",
+                "['set: 9', 'item: 8']:('weights: 25.0, 24.0, 24.0, 31.0, 27.0'):('profit: 269.0')",
+                "['set: 10', 'item: 17']:('weights: 27.0, 25.0, 31.0, 30.0, 28.0'):('profit: 281.0')"
+            ]
+        }
+    ]
+}

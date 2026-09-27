@@ -1,0 +1,14 @@
+{
+    "database": "benchmarks/20x50_cap500.csv",
+    "status": "no solution",
+    "trunc": "MM",
+    "scale_vpl": 100.0,
+    "limit": 100,
+    "buffer": 1.0,
+    "order": "C",
+    "frac_limit": "N/A",
+    "tempo": 0.2801,
+    "known_best": 4692.0,
+    "upper_bound": 4989.0,
+    "solution": []
+}

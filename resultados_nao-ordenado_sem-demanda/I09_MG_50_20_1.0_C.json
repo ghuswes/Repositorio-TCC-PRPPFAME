@@ -1,0 +1,14 @@
+{
+    "database": "benchmarks/I09.csv",
+    "status": "no solution",
+    "trunc": "MG",
+    "scale_vpl": 50.0,
+    "limit": 20,
+    "buffer": 1.0,
+    "order": "C",
+    "frac_limit": "N/A",
+    "tempo": 132.2343,
+    "known_best": "N/A",
+    "upper_bound": 49193.87,
+    "solution": []
+}

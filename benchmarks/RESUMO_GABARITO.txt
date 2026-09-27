@@ -1,0 +1,20 @@
+I01: Best=173.00, Upper_Bound=182.71
+I02: Best=364.00, Upper_Bound=365.58
+I03: Best=1602.00, Upper_Bound=1626.59
+I04: Best=3597.00, Upper_Bound=3631.36
+I05: Best=3905.70, Upper_Bound=3905.90
+I06: Best=4799.30, Upper_Bound=4812.82
+I07: Best=Unknown, Upper_Bound=24607.95
+I08: Best=Unknown, Upper_Bound=36904.41
+I09: Best=Unknown, Upper_Bound=49193.87
+I10: Best=Unknown, Upper_Bound=61486.30
+I11: Best=Unknown, Upper_Bound=73797.74
+I12: Best=Unknown, Upper_Bound=86100.45
+I13: Best=Unknown, Upper_Bound=98448.64
+5x10: Best=946.00, Upper_Bound=1010.00
+10x25: Best=2840.00, Upper_Bound=2985.00
+20x50: Best=4692.00, Upper_Bound=4989.00
+base120: Best=Unknown, Upper_Bound=36334070.00
+
+acesso em: <ftp://cermsem.univ-paris1.fr/pub/CERMSEM/hifi/MMKP/MMKP.html>
+https://github.com/shah314/samultichoiceknapsack

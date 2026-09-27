@@ -1,0 +1,41 @@
+{
+    "database": "benchmarks/I02.csv",
+    "status": "sucess",
+    "trunc": "MGR",
+    "scale_vpl": 10.0,
+    "limit": 50,
+    "buffer": 1.0,
+    "order": "D",
+    "frac_limit": "N/A",
+    "tempo": 0.3382,
+    "known_best": 364.0,
+    "upper_bound": 365.58,
+    "solution": [
+        {
+            "total_profit": 328.0,
+            "penalty": "N/A",
+            "liquid_profit": 328.0,
+            "gap_best": 9.8901,
+            "gap_upper_bound": 10.2796,
+            "weights": [
+                "['dimension: 1', 'weight: 49.0', 'penalty: 0']:('cap_min: 0', 'cap_max: 50.0')",
+                "['dimension: 2', 'weight: 42.0', 'penalty: 0']:('cap_min: 0', 'cap_max: 50.0')",
+                "['dimension: 3', 'weight: 45.0', 'penalty: 0']:('cap_min: 0', 'cap_max: 50.0')",
+                "['dimension: 4', 'weight: 21.0', 'penalty: 0']:('cap_min: 0', 'cap_max: 50.0')",
+                "['dimension: 5', 'weight: 36.0', 'penalty: 0']:('cap_min: 0', 'cap_max: 50.0')"
+            ],
+            "items": [
+                "['set: 1', 'item: 1']:('weights: 1.0, 3.0, 1.0, 1.0, 6.0'):('profit: 7.0')",
+                "['set: 2', 'item: 4']:('weights: 9.0, 1.0, 2.0, 2.0, 4.0'):('profit: 39.0')",
+                "['set: 3', 'item: 5']:('weights: 9.0, 5.0, 9.0, 2.0, 2.0'):('profit: 50.0')",
+                "['set: 4', 'item: 4']:('weights: 6.0, 3.0, 6.0, 9.0, 1.0'):('profit: 37.0')",
+                "['set: 5', 'item: 5']:('weights: 9.0, 2.0, 2.0, 2.0, 3.0'):('profit: 44.0')",
+                "['set: 6', 'item: 1']:('weights: 1.0, 6.0, 0.0, 4.0, 0.0'):('profit: 17.0')",
+                "['set: 7', 'item: 3']:('weights: 2.0, 2.0, 6.0, 1.0, 9.0'):('profit: 25.0')",
+                "['set: 8', 'item: 1']:('weights: 0.0, 9.0, 5.0, 0.0, 2.0'):('profit: 25.0')",
+                "['set: 9', 'item: 5']:('weights: 7.0, 7.0, 6.0, 0.0, 8.0'):('profit: 44.0')",
+                "['set: 10', 'item: 4']:('weights: 5.0, 4.0, 8.0, 0.0, 1.0'):('profit: 40.0')"
+            ]
+        }
+    ]
+}

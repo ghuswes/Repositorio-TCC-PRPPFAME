@@ -1,0 +1,41 @@
+{
+    "database": "benchmarks/10x25_cap300.csv",
+    "status": "sucess",
+    "trunc": "MGA",
+    "scale_vpl": 30.0,
+    "limit": 50,
+    "buffer": 1.0,
+    "order": "D",
+    "frac_limit": "N/A",
+    "tempo": 1.1273,
+    "known_best": 2840.0,
+    "upper_bound": 2985.0,
+    "solution": [
+        {
+            "total_profit": 2282.0,
+            "penalty": "N/A",
+            "liquid_profit": 2282.0,
+            "gap_best": 19.6479,
+            "gap_upper_bound": 23.5511,
+            "weights": [
+                "['dimension: 1', 'weight: 264.0', 'penalty: 0']:('cap_min: 0', 'cap_max: 300.0')",
+                "['dimension: 2', 'weight: 299.0', 'penalty: 0']:('cap_min: 0', 'cap_max: 300.0')",
+                "['dimension: 3', 'weight: 300.0', 'penalty: 0']:('cap_min: 0', 'cap_max: 300.0')",
+                "['dimension: 4', 'weight: 295.0', 'penalty: 0']:('cap_min: 0', 'cap_max: 300.0')",
+                "['dimension: 5', 'weight: 280.0', 'penalty: 0']:('cap_min: 0', 'cap_max: 300.0')"
+            ],
+            "items": [
+                "['set: 1', 'item: 6']:('weights: 25.0, 24.0, 23.0, 32.0, 32.0'):('profit: 217.0')",
+                "['set: 2', 'item: 12']:('weights: 24.0, 28.0, 26.0, 28.0, 21.0'):('profit: 208.0')",
+                "['set: 3', 'item: 25']:('weights: 29.0, 26.0, 73.0, 33.0, 34.0'):('profit: 283.0')",
+                "['set: 4', 'item: 22']:('weights: 32.0, 29.0, 26.0, 29.0, 25.0'):('profit: 232.0')",
+                "['set: 5', 'item: 23']:('weights: 24.0, 24.0, 29.0, 26.0, 29.0'):('profit: 211.0')",
+                "['set: 6', 'item: 24']:('weights: 31.0, 73.0, 26.0, 33.0, 36.0'):('profit: 301.0')",
+                "['set: 7', 'item: 18']:('weights: 23.0, 27.0, 24.0, 24.0, 28.0'):('profit: 205.0')",
+                "['set: 8', 'item: 22']:('weights: 28.0, 25.0, 20.0, 29.0, 23.0'):('profit: 204.0')",
+                "['set: 9', 'item: 6']:('weights: 26.0, 23.0, 24.0, 30.0, 26.0'):('profit: 205.0')",
+                "['set: 10', 'item: 6']:('weights: 22.0, 20.0, 29.0, 31.0, 26.0'):('profit: 216.0')"
+            ]
+        }
+    ]
+}

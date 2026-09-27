@@ -1,0 +1,13 @@
+GABARITO - BASE mochila_5x10_cap100
+Configuração: 5 conjuntos x 10 itens
+Capacidade Máxima de cada dimensão: 100
+--------------------------------------------------
+Conjunto   | Item ID  | P    A    L    C    Custo  | Lucro 
+1          | 4        | 17   18   19   20   20     | 188   
+2          | 7        | 22   17   20   21   20     | 200   
+3          | 3        | 21   22   17   16   17     | 186   
+4          | 1        | 17   18   18   17   20     | 180   
+5          | 9        | 17   19   18   21   21     | 192   
+--------------------------------------------------
+SOMA TOTAL ATRIBUTOS: P=94, A=94, L=92, C=95, Custo=98
+LUCRO TOTAL ÓTIMO: 946

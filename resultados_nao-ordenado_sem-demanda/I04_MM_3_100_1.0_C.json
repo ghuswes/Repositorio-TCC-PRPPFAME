@@ -1,0 +1,56 @@
+{
+    "database": "benchmarks/I04.csv",
+    "status": "sucess",
+    "trunc": "MM",
+    "scale_vpl": 3.0,
+    "limit": 100,
+    "buffer": 1.0,
+    "order": "C",
+    "frac_limit": "N/A",
+    "tempo": 35.4212,
+    "known_best": 3597.0,
+    "upper_bound": 3631.36,
+    "solution": [
+        {
+            "total_profit": 2568.0,
+            "penalty": "N/A",
+            "liquid_profit": 2568.0,
+            "gap_best": 28.6072,
+            "gap_upper_bound": 29.2827,
+            "weights": [
+                "['dimension: 1', 'weight: 91.0', 'penalty: 0']:('cap_min: 0', 'cap_max: 100.0')",
+                "['dimension: 2', 'weight: 74.0', 'penalty: 0']:('cap_min: 0', 'cap_max: 100.0')",
+                "['dimension: 3', 'weight: 77.0', 'penalty: 0']:('cap_min: 0', 'cap_max: 100.0')",
+                "['dimension: 4', 'weight: 61.0', 'penalty: 0']:('cap_min: 0', 'cap_max: 100.0')",
+                "['dimension: 5', 'weight: 88.0', 'penalty: 0']:('cap_min: 0', 'cap_max: 100.0')",
+                "['dimension: 6', 'weight: 57.0', 'penalty: 0']:('cap_min: 0', 'cap_max: 100.0')",
+                "['dimension: 7', 'weight: 52.0', 'penalty: 0']:('cap_min: 0', 'cap_max: 100.0')",
+                "['dimension: 8', 'weight: 100.0', 'penalty: 0']:('cap_min: 0', 'cap_max: 100.0')",
+                "['dimension: 9', 'weight: 91.0', 'penalty: 0']:('cap_min: 0', 'cap_max: 100.0')",
+                "['dimension: 10', 'weight: 95.0', 'penalty: 0']:('cap_min: 0', 'cap_max: 100.0')"
+            ],
+            "items": [
+                "['set: 1', 'item: 1']:('weights: 0.0, 1.0, 9.0, 1.0, 4.0, 3.0, 2.0, 4.0, 7.0, 9.0'):('profit: 123.0')",
+                "['set: 2', 'item: 1']:('weights: 5.0, 4.0, 4.0, 3.0, 2.0, 1.0, 9.0, 8.0, 6.0, 5.0'):('profit: 104.0')",
+                "['set: 3', 'item: 1']:('weights: 0.0, 4.0, 4.0, 3.0, 5.0, 0.0, 0.0, 4.0, 5.0, 5.0'):('profit: 96.0')",
+                "['set: 4', 'item: 1']:('weights: 9.0, 1.0, 2.0, 0.0, 3.0, 4.0, 1.0, 0.0, 6.0, 3.0'):('profit: 84.0')",
+                "['set: 5', 'item: 1']:('weights: 6.0, 9.0, 2.0, 2.0, 3.0, 1.0, 0.0, 9.0, 3.0, 3.0'):('profit: 117.0')",
+                "['set: 6', 'item: 1']:('weights: 4.0, 1.0, 4.0, 4.0, 1.0, 1.0, 4.0, 6.0, 0.0, 8.0'):('profit: 83.0')",
+                "['set: 7', 'item: 1']:('weights: 5.0, 8.0, 1.0, 1.0, 0.0, 4.0, 1.0, 8.0, 1.0, 0.0'):('profit: 99.0')",
+                "['set: 8', 'item: 2']:('weights: 9.0, 3.0, 7.0, 1.0, 7.0, 0.0, 8.0, 8.0, 1.0, 2.0'):('profit: 123.0')",
+                "['set: 9', 'item: 3']:('weights: 3.0, 1.0, 1.0, 2.0, 8.0, 3.0, 2.0, 9.0, 4.0, 2.0'):('profit: 154.0')",
+                "['set: 10', 'item: 1']:('weights: 8.0, 4.0, 1.0, 2.0, 8.0, 0.0, 2.0, 6.0, 1.0, 5.0'):('profit: 110.0')",
+                "['set: 11', 'item: 4']:('weights: 7.0, 0.0, 9.0, 8.0, 1.0, 0.0, 4.0, 5.0, 7.0, 4.0'):('profit: 120.0')",
+                "['set: 12', 'item: 2']:('weights: 2.0, 4.0, 7.0, 3.0, 3.0, 0.0, 0.0, 8.0, 7.0, 0.0'):('profit: 117.0')",
+                "['set: 13', 'item: 3']:('weights: 8.0, 4.0, 3.0, 0.0, 1.0, 7.0, 0.0, 8.0, 3.0, 8.0'):('profit: 115.0')",
+                "['set: 14', 'item: 3']:('weights: 1.0, 3.0, 6.0, 4.0, 6.0, 1.0, 0.0, 9.0, 6.0, 2.0'):('profit: 136.0')",
+                "['set: 15', 'item: 1']:('weights: 9.0, 0.0, 1.0, 1.0, 4.0, 2.0, 2.0, 4.0, 5.0, 1.0'):('profit: 110.0')",
+                "['set: 16', 'item: 7']:('weights: 1.0, 0.0, 3.0, 5.0, 9.0, 7.0, 3.0, 1.0, 6.0, 4.0'):('profit: 168.0')",
+                "['set: 17', 'item: 9']:('weights: 9.0, 7.0, 9.0, 5.0, 5.0, 8.0, 2.0, 2.0, 4.0, 9.0'):('profit: 213.0')",
+                "['set: 18', 'item: 6']:('weights: 2.0, 9.0, 0.0, 4.0, 5.0, 5.0, 1.0, 1.0, 9.0, 9.0'):('profit: 164.0')",
+                "['set: 19', 'item: 6']:('weights: 1.0, 2.0, 1.0, 6.0, 4.0, 9.0, 3.0, 0.0, 7.0, 7.0'):('profit: 163.0')",
+                "['set: 20', 'item: 7']:('weights: 2.0, 9.0, 3.0, 6.0, 9.0, 1.0, 8.0, 0.0, 3.0, 9.0'):('profit: 169.0')"
+            ]
+        }
+    ]
+}
